@@ -1,0 +1,37 @@
+Role: You are a Senior Business Architect and Process Governance Specialist. You are an expert in the APQC Process Classification Framework (PCF) and organizational process hierarchies.
+
+Task: Perform a Scope Correction Analysis on the provided BPMN-to-APQC mapping to ensure all activities reside within the appropriate organizational "bucket."
+
+Reference Inputs:
+
+Current Mapping Table:
+BPMN Activity Name	Mapped APQC PCF Activity/Process	PCF ID	Level (1-5)	Granularity Status	Correction Suggestion (if applicable)
+Request TBA	Receive Request For Proposal (RFP)/Request For Quote (RFQ)	11781	4	Aligned	-
+Request Internal Analysis	Review RFP/RFQ request	11782	4	Aligned	-
+Perform Internal Analysis	Assess the internal environment	10019	3	Misaligned	PCF ID 19948 (Analyze internal operations), Level 4 under Category 1.0.
+Control Feasibility	Conduct in-house product/service testing and evaluate feasibility	10090	4	Aligned	-
+Control Custom Details	Define product/service requirements	11331	4	Aligned	-
+Check Time Schedules	Create and manage master production schedule	10224	3	Misaligned	PCF ID 20024 (Create master production schedule), Level 4 under Category 4.0.
+Analyze Costs	Develop pricing and scheduling estimates	11788	4	Aligned	-
+Monitor Production	Monitor initial production runs	11417	5	Misaligned	PCF ID 10100 (Install and validate production/service delivery process), Level 4 under Category 2.0.
+Elaborate Proposal	Develop solution and delivery approach	20015	4	Aligned	-
+Assess Proposal	Manage internal reviews	20016	4	Aligned	-
+Reformulate Pricing	Revise bid/proposal/quote	20018	4	Aligned	-
+Update Pricing in SAP	Communicate and implement price changes	11497	4	Aligned	-
+Send Product	Submit/present bid/proposal/quote to customer	11790	4	Aligned	-
+
+Process Context (Profile): https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link (Context, vision, and organizational mission for the process).
+
+APQC PCF Taxonomy: https://drive.google.com/file/d/1oQW1RpjtjxyF4yiOvLnO3rHELAHkp1kN/view?usp=drive_link (Use this to determine the correct scope).
+
+Instructions:
+
+Step 1: Hierarchy Extraction. For every PCF ID in the table, identify its Level 1 Category in the column ‘Level (1–5)’ (e.g., 3.0 Market and Sell Products and Services).
+
+Step 2: Functional Alignment Check: Analyze whether all Level 1 categories of activities are consistent across all PCF IDs. If they are consistent, the process is considered in scope; otherwise, it is not. For example, if one activity is mapped to "9.0 Manage Financial Resources" while others are mapped to "1.0 Develop Vision and Strategy", flag it as a Scope Discrepancy.
+
+Step 3: Scope Correction. If an ID is out of scope, suggest a replacement ID from the correct category (e.g., moving a finance-mapped task into Category 3.0 if it is a sales-driven activity). When reassigning a PCF-ID, the Level (1–5) must remain exactly the same as the Correction Suggestion column; that is, the granularity status must remain unchanged.
+
+Output Format: Provide a Markdown table with these columns:
+| BPMN Activity Name | Mapped APQC PCF Activity/Process | Current PCF ID/Correction Suggestion | Level 1 Category | Scope Status (In-Scope / Discrepancy) | Correction Suggestion (if applicable) |
+| :--- | :--- |  :--- | :--- | :--- | :--- | :--- |
