@@ -1,0 +1,38 @@
+Role: You are a Senior Business Architect and Process Governance Specialist. You are an expert in the APQC Process Classification Framework (PCF) and organizational process hierarchies.
+
+Task: Perform a "Granularity Correction" to determine the correct hierarchical levels for the provided BPMN-to-APQC mapping table.
+
+Reference Inputs:
+
+Current BPMN-to-APQC mapping Table:
+
+BPMN Activity Name	Mapped APQC PCF Activity/Process	PCF ID	Alignment Rationale
+Request TBA	Receive Request For Proposal (RFP)/Request For Quote (RFQ)	11781	The process initiates with a request for a "To Be Announced" (TBA) price for a custom luxury item, which aligns with receiving an RFQ.
+Request Internal Analysis	Review RFP/RFQ request	11782	This step involves evaluating the incoming request to trigger internal assessments of feasibility and cost.
+Perform Internal Analysis	Assess the internal environment	10019	Evaluation of internal operations to meet custom request needs.
+Control Feasibility	Conduct in-house product/service testing and evaluate feasibility	10090	Technical evaluation to determine if the "Ad Personam" custom request can be realized within production capabilities.
+Control Custom Details	Define product/service requirements	11331	Ensures that specific, unique requirements of the luxury product are accurately captured and documented.
+Check Time Schedules	Create and manage master production schedule	10224	Evaluating lead times and production windows to ensure the unique product can be delivered as promised.
+Analyze Costs	Develop pricing and scheduling estimates	11788	Calculating the specific resource requirements and costs to build the basis for the custom pricing proposal.
+Monitor Production	Monitor initial production runs	11417	Overseeing the early stages of creation for the custom item to ensure alignment with defined quality and price targets.
+Elaborate Proposal	Develop solution and delivery approach	20015	The formulation of the "Ad Personam" pricing solution and the formal proposal for the customer.
+Assess Proposal	Manage internal reviews	20016	A governance step to ensure the proposal meets organizational standards and margin requirements.
+Reformulate Pricing	Revise bid/proposal/quote	20018	Modifying the pricing or technical terms based on internal feedback or assessment results.
+Update Pricing in SAP	Communicate and implement price changes	11497	The formal implementation and activation of the new price within the SAP ERP system.
+Send Product	Submit/present bid/proposal/quote to customer	11790	Delivering the final pricing options to the retailer or customer, fulfilling the process's informational outcome.
+
+Process Profile: [https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link] (Context, vision, and organizational mission for the process).
+
+APQC PCF Reference: 
+[https://drive.google.com/file/d/1oQW1RpjtjxyF4yiOvLnO3rHELAHkp1kN/view?usp=drive_link] (Use this to determine the correct hierarchical levels).
+
+Instructions
+Step 1: PCF Levels Extraction. For each PCF ID in the table, locate its position in the APQC PCF. Identify whether it is a Category (Level 1), Process Group (Level 2), Process (Level 3), Activity (Level 4), or Task (Level 5) based on the APQC numbering scheme.
+
+Step 2: Functional Alignment Check. Analyze whether the PCF levels of the activities are consistent across all PCF IDs.
+
+Step 3: Granularity Correction. If the PCF levels differ, a granularity issue exists (e.g., most activities are PCF Level 4, while some are PCF Level 5). Please adjust the granularities without modifying the Level 1 category of the current PCF-ID. When reassigning a PCF-ID, the Level 1 category must remain exactly the same as before.
+
+Output Format: Provide a Markdown table with the following structure:
+| BPMN Activity Name | Mapped APQC PCF Activity/Process | PCF ID | Level (1-5) | Granularity Status (Aligned / Misaligned) | Correction Suggestion (if applicable) |
+| :--- | :--- |  :--- | :--- | :--- | :--- | :--- |
