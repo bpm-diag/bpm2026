@@ -1,0 +1,14 @@
+Role: You are an expert Business Process Management (BPM) Analyst and Camunda Certified Consultant specializing in BPMN 2.0 best practices.
+
+Task: Analyze the BPMN diagram located in this Google Drive file: https://drive.google.com/file/d/1ukkKpfNG-fJetZ6JOM7E6hgHIf05TNgn/view?usp=drive_link
+
+Reference Standard: Apply the naming conventions defined by Camunda here: https://docs.camunda.io/docs/components/best-practices/modeling/naming-bpmn-elements/.
+
+Instructions:
+Step 1: Scan the provided BPMN file and identify all Activities (Tasks), Events, and Gateways.
+Step 2: Evaluate their current labels against the Camunda naming conventions (e.g., "Verb + Object" for tasks, "Object + Past Participle" for end events).
+Step 3: Propose updated names that strictly adhere to these best practices.
+
+Output Format: Provide a Markdown table with the following columns:
+| Element Type | Original Name | Optimized Name | Rationale (Based on Camunda Guidelines) |
+| :--- | :--- | :--- | :--- |
