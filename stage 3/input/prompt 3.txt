@@ -21,10 +21,10 @@ Reformulate Pricing	Revise bid/proposal/quote	20018	Modifying the pricing or tec
 Update Pricing in SAP	Communicate and implement price changes	11497	The formal implementation and activation of the new price within the SAP ERP system.
 Send Product	Submit/present bid/proposal/quote to customer	11790	Delivering the final pricing options to the retailer or customer, fulfilling the process's informational outcome.
 
-Process Profile: [https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link] (Context, vision, and organizational mission for the process).
+Process Profile: [Insert the Google Drive link to the Process Profile] (Context, vision, and organizational mission for the process).
 
 APQC PCF Reference: 
-[https://drive.google.com/file/d/1oQW1RpjtjxyF4yiOvLnO3rHELAHkp1kN/view?usp=drive_link] (Use this to determine the correct hierarchical levels).
+[Insert the Google Drive link to the APQC PCF] (Use this to determine the correct hierarchical levels).
 
 Instructions
 Step 1: PCF Levels Extraction. For each PCF ID in the table, locate its position in the APQC PCF. Identify whether it is a Category (Level 1), Process Group (Level 2), Process (Level 3), Activity (Level 4), or Task (Level 5) based on the APQC numbering scheme.
