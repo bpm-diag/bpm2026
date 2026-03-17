@@ -20,9 +20,9 @@ Reformulate Pricing	Revise bid/proposal/quote	20018	3.0 Market and Sell Products
 Update Pricing in SAP	Communicate and implement price changes	11497	3.0 Market and Sell Products and Services	In-Scope	-
 Send Product	Submit/present bid/proposal/quote to customer	11790	3.0 Market and Sell Products and Services	In-Scope	-
 
-Process Context (Profile): https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link (Context, vision, and organizational mission for the process).
+Process Profile: [Insert the Google Drive link to the Process Profile] (Context, vision, and organizational mission for the process).
 
-APQC KPI Reference: https://drive.google.com/file/d/1RPzDHHWlpm-CIqAXSgJbfILv80oaAkCe/view?usp=drive_link (Use this to determine the KPI).
+APQC KPI Reference: [Insert the Google Drive link to the AQPC KPI Reference] (Use this to determine the KPI).
 
 Instructions:
 
