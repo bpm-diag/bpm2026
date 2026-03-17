@@ -20,9 +20,9 @@ Reformulate Pricing	Revise bid/proposal/quote	20018	4	Aligned	-
 Update Pricing in SAP	Communicate and implement price changes	11497	4	Aligned	-
 Send Product	Submit/present bid/proposal/quote to customer	11790	4	Aligned	-
 
-Process Context (Profile): https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link (Context, vision, and organizational mission for the process).
+Process Profile: [Insert the Google Drive link to the Process Profile] (Context, vision, and organizational mission for the process).
 
-APQC PCF Taxonomy: https://drive.google.com/file/d/1oQW1RpjtjxyF4yiOvLnO3rHELAHkp1kN/view?usp=drive_link (Use this to determine the correct scope).
+APQC PCF Taxonomy: [Insert the Google Drive link to the APQC PCF] (Use this to determine the correct scope).
 
 Instructions:
 
