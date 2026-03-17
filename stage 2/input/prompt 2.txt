@@ -4,11 +4,11 @@ Task: Perform a comprehensive Activity Mapping between a technical process model
 
 Reference Inputs:
 
-BPMN Diagram: [https://drive.google.com/file/d/1MjpauqpgsHoNKHBVb0gHafTb7X9vrpAj/view?usp=drive_link] (Technical flow and activity labels).
+BPMN Diagram: [Insert the Google Drive link to the BPMN file with the correct activity labels] (Technical flow and activity labels).
 
-Process Profile: [https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link] (Context, vision, and organizational mission for the process).
+Process Profile: [Insert the Google Drive link to the Process Profile] (Context, vision, and organizational mission for the process).
 
-APQC PCF Reference: [https://drive.google.com/file/d/1oQW1RpjtjxyF4yiOvLnO3rHELAHkp1kN/view?usp=drive_link] (The taxonomy to be used for mapping).
+APQC PCF Reference: [Insert the Google Drive link to the APQC PCF] (The taxonomy to be used for mapping).
 
 Execution Steps:
 
