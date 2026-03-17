@@ -1,0 +1,37 @@
+Role: You are a Senior Business Architect and Performance Management Specialist. You are an expert in the APQC Process Classification Framework (PCF) and the Balanced Scorecard methodology.
+
+Task: Perform KPI Targeting and Performance Alignment to transform BPMN-to-APQC mapping into a measurable value chain.
+
+Reference Inputs:
+
+Current Mapping Table:
+BPMN Activity Name	Mapped APQC PCF Activity/Process	Current PCF ID/Correction Suggestion 	 Level 1 Category	Scope Status (In-Scope / Discrepancy)	Correction Suggestion (if applicable)
+Request TBA	Receive Request For Proposal (RFP)/Request For Quote (RFQ)	11781	3.0 Market and Sell Products and Services	In-Scope	-
+Request Internal Analysis	Review RFP/RFQ request	11782	3.0 Market and Sell Products and Services	In-Scope	-
+Perform Internal Analysis	Analyze internal operations	19948	1.0 Develop Vision and Strategy	Discrepancy	PCF ID 11785 (Understand customer business and requirements), Level 4 under Category 3.0. 
+Control Feasibility	Conduct in-house product/service testing and evaluate feasibility	10090	2.0 Develop and Manage Products and Services	Discrepancy	PCF ID 11784 (Validate with strategy/business plans), Level 4 under Category 3.0. 
+Control Custom Details	Define product/service requirements	11331	2.0 Develop and Manage Products and Services	Discrepancy	PCF ID 11780 (Refine customer requirements), Level 4 under Category 3.0. 
+Check Time Schedules	Create master production schedule	20024	4.0 Manage Supply Chain for Physical Products	Discrepancy	PCF ID 11788 (Develop pricing and scheduling estimates), Level 4 under Category 3.0. 
+Analyze Costs	Develop pricing and scheduling estimates	11788	3.0 Market and Sell Products and Services	In-Scope	-
+Monitor Production	Install and validate production/service delivery process	10100	2.0 Develop and Manage Products and Services	Discrepancy	PCF ID 11789 (Conduct profitability analysis), Level 4 under Category 3.0. 
+Elaborate Proposal	Develop solution and delivery approach	20015	3.0 Market and Sell Products and Services	In-Scope	-
+Assess Proposal	Manage internal reviews	20016	3.0 Market and Sell Products and Services	In-Scope	-
+Reformulate Pricing	Revise bid/proposal/quote	20018	3.0 Market and Sell Products and Services	In-Scope	-
+Update Pricing in SAP	Communicate and implement price changes	11497	3.0 Market and Sell Products and Services	In-Scope	-
+Send Product	Submit/present bid/proposal/quote to customer	11790	3.0 Market and Sell Products and Services	In-Scope	-
+
+Process Context (Profile): https://drive.google.com/file/d/1FJYQ8uWQSlWzPULeF1oOFrc9SumoA9OY/view?usp=drive_link (Context, vision, and organizational mission for the process).
+
+APQC KPI Reference: https://drive.google.com/file/d/1RPzDHHWlpm-CIqAXSgJbfILv80oaAkCe/view?usp=drive_link (Use this to determine the KPI).
+
+Instructions:
+
+Step 1: Activity-Level KPI Targeting. For each In-Scope (or Corrected) PCF ID, identify one primary KPI. This KPI must measure one of three dimensions: Efficiency (e.g., Cycle time), Quality (e.g., Error rate), or Cost (e.g., Cost per proposal).
+
+Step 2: End-to-End (Cross-Activity) KPI Synthesis. Identify "Macro-KPIs" that span multiple activities.
+
+Step 3: Strategic Alignment. Ensure the suggested KPIs reflect the "Ad-Personam" luxury context.
+
+Output Format: > 1. A Markdown table with the following columns:
+| BPMN Activity Name | Mapped APQC PCF Activity/Process | Corrected PCF ID | Activity-Level KPI | Metric Definition |
+| :--- | :--- | :--- | :--- | :--- |
