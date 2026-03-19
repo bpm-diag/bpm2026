@@ -1,5 +1,3 @@
----
-
 ## 📚 Systematic Literature Review (SLR)
 
 This folder includes the following main files:
@@ -7,8 +5,6 @@ This folder includes the following main files:
 * **SLR Results**
 * **Additional Phase for Inclusion**
 * **Articles' Classification**
-
----
 
 ## 🔍 SLR Results
 
@@ -23,8 +19,6 @@ This folder includes the following main files:
 * `Total Merge NoDup` shows the overall results minus the duplicated considering the titles and year of publication
 * `Total Merge NoDupEx` depicts the same results of the previous tab with the additional information provided by the columns named `Exclusion Criterion` and `Details (Inclusion/Exclusion)`. Indeed, there is evidence that not only a decision for inclusion and exclusion criteria application has been taken but also a specific rationale for each of the results has been declared and thus can be consulted.
 
----
-
 ## ➕ Additional Phase for Inclusion
 
 **Additional Phase for Inclusion** depicts further reflections upon the included results that should be actually retained. This file contains the following sheets:
@@ -33,8 +27,6 @@ This folder includes the following main files:
 * `Filter_on_I1` returns with respect to the previous tab only the articles marked as I1, thus the ones which are included according to the inclusion and exclusion criteria.
 * `Included_Additional Phase` registers the application of a second phase of inclusion and exclusion criteria to include only the truly relevant papers, considering not only title and abstract but looking at the full content. 
 * `Included` shows only the included papers at the end of this second phase of analysis.
-
----
 
 ## 🏷️ Articles' Classification
 
@@ -57,12 +49,6 @@ This folder includes the following main files:
 
 The used classification has been customized starting from the one already proposed by a survey and classification conducted on Business Process Reference Models in the literature [1].
 
----
-
 ## 📖 Reference
 
-[1] Fettke, P., Loos, P., Zwicker, J.
-*Business Process Reference Models: Survey and Classification*
-In: International Conference on Business Process Management, pp. 469–483. Springer (2005)
-
----
+[1] Fettke, P., Loos, P., Zwicker, J. *Business Process Reference Models: Survey and Classification*. In: International Conference on Business Process Management, pp. 469–483. Springer (2005)
