@@ -47,9 +47,7 @@ This folder includes the following main files:
 * `Note` is a general information column that summarizes main information of the paper under analysis.
 * `Attention` is a column used only for some particular articles which are considered particularly relevant.
 
-<div align="center">
-  <img src="./SLR.png" alt="SLR">
-</div>
+![SLR](./SLR.png)
 
 The used classification has been customized starting from the one already proposed by a survey and classification conducted on Business Process Reference Models in the literature [1].
 
