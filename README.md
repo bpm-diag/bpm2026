@@ -1,4 +1,4 @@
-# Automated Process Models Diagnosis through Reference Frameworks
+# Systematic and Automated Diagnosis of Process Models Using Reference Frameworks
 
 ## 📂 Repository Structure
 
