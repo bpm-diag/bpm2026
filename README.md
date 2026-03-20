@@ -1,5 +1,7 @@
 # Systematic and Automated Diagnosis of Process Models Using Reference Frameworks
 
+`For proper PDF viewing, please download the repository locally, as Anonymous GitHub does not display PDFs correctly.`
+
 ## 📂 Repository Structure
 
 The project is organized into five distinct stages, each supported by specific prompt templates and resulting in refined artifacts.
