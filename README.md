@@ -14,16 +14,16 @@ The project is organized into five distinct stages, each supported by specific p
 ### 2. Reference Framework
 
 * `K014750_APQC Process Classification Framework (PCF) - Cross Industry - PDF Version 7.4_January 2025.pdf`: The **APQC Process Classification Framework (Version 7.4)** has been employed to allow a process described in BPMN to be assessed against global industry standards.
-* `K012576_3.0 Market and Sell Products and Services Definitions and Key Measures PCF version 7.4.pdf`: The **APQC KPI Reference** for the enterprise-level category "3.0 Market and Sell Products and Services". 
+* `K012576_3.0 Market and Sell Products and Services Definitions and Key Measures PCF version 7.4.pdf`: The **APQC KPI Reference** for the PCF-ID category "3.0 Market and Sell Products and Services". 
 
 ### 3. Prompts
 
 A series of structured prompts designed to guide an LLM (e.g., Gemini, which was employed as the targeted LLM in the paper) through the stages of the maturity model:
 
-* **`prompt.txt` (Stage 1):** Instructs the LLM to correct the syntax of BPMN element names according to Camunda best practices (e.g., "Verb + Object" for activities).
+* **`prompt.txt` (Stage 1):** Instructs the LLM to correct the labeling of BPMN element names according to Camunda best practices (e.g., "Verb + Object" for activities).
 * **`prompt 2.txt` (Stage 2):** Focuses on mapping BPMN elements to the **APQC Process Classification Framework (PCF)**.
-* **`prompt 3.txt` (Stage 3):** Performs a "Granularity Correction" to ensure all mapped activities reside at consistent PCF-ID levels (e.g., aligning all activities to Level 4).
-* **`prompt 4.txt` (Stage 4):** Performs a "Scope Correction Analysis" to ensure activities are mapped to the correct enterpise-level categories.
+* **`prompt 3.txt` (Stage 3):** Performs a "Granularity Correction" to ensure all mapped activities reside at consistent PCF-ID levels (e.g., aligning all activities to L4).
+* **`prompt 4.txt` (Stage 4):** Performs a "Scope Correction Analysis" to ensure activities are mapped to the correct PCF-ID categories.
 * **`prompt 5.txt` (Stage 5):** Performs a "KPI Targeting" to enable process performance measurement.
 
 ### 4. Reports
